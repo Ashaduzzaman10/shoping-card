@@ -9,7 +9,6 @@ function updateCaseNumber(isIncrease) {
     newCaseNumber = caseNumber - 1;
   }
   caseNumberField.value = newCaseNumber;
-  console.log(newCaseNumber);
   return newCaseNumber;
 }
 function updateCaseTotalPrice(newCaseNumber) {
